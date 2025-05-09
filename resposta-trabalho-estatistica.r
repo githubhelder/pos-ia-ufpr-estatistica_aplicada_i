@@ -1,6 +1,6 @@
 
 # configurar o caminho do banco de dados
-setwd("C:/Users/helder-cea/Documents/helder/especializacao-ia-ufpr/disciplinas/04-estatistica-1/base-dados")
+setwd("/pasta)
 
 # Carregar os dados
 load("salarios.RData")
@@ -131,7 +131,7 @@ cat("\nIdade do Marido:\nVariância:", var_husage, "\nDesvio Padrão:", sd_husag
 
 
 # ----------------------------------------------------------
-# ANÁLISE DE DADOS PARADOS: IDADE DE ESPOSAS vs MARIDOS
+# ANÁLISE DE DADOS PAREADOS: IDADE DE ESPOSAS vs MARIDOS
 # ----------------------------------------------------------
 
 # Passo 1: Carregar pacotes necessários
